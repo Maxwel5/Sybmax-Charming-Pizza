@@ -33,6 +33,11 @@ body {
     font-family: 'Alice', serif;
     font-size: 55px;
 }
+#choice {
+    font-family: 'Alice', serif;
+    text-align: center;
+    font-size: 18px;
+}
 /* .Jumbotron {
     border-style: solid;
     border-block-color: blue;
