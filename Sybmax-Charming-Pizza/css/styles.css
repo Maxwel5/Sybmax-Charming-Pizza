@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(165, 187, 180);
+}
 .header {
     background-color: blue;
 }
@@ -9,3 +12,28 @@
 .header img {
     padding-left: 30px;
 }
+.name {
+    background-image: url(../max-images/max3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name h1 {
+    font-size: 60px;
+    font-family: 'Jacques Francois Shadow', cursive;
+    color: blue;
+}
+.name p {
+    font-size: 40px;
+    font-family: 'Italianno', cursive;
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+.name h2 {
+    font-family: 'Alice', serif;
+    font-size: 55px;
+}
+/* .Jumbotron {
+    border-style: solid;
+    border-block-color: blue;
+} */
