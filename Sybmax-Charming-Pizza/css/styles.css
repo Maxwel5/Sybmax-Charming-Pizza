@@ -6,17 +6,18 @@ body {
 }
 .header a {
     justify-content: space-around;
-    color: black;
+    color: white;
     padding-left: 30px;
     text-decoration: none;
-    font-family: 'Jacques Francois Shadow', cursive;
-    color: white;
+    font-family: 'Alice', serif;
 }
 .header a:hover {
     background-color: rgb(255, 146, 127);
 }
 .header img {
     padding-left: 30px;
+    width:20%;
+    height: 20%;
 }
 .name {
     background-image: url(../max-images/max3.jpg);
@@ -44,7 +45,14 @@ body {
     text-align: center;
     font-size: 18px;
 }
-/* .Jumbotron {
-    border-style: solid;
-    border-block-color: blue;
-} */
+@media (min-width: 576px) { 
+    .header{
+   display:block;
+    }
+ }
+ form {
+     text-align: center;
+ }
+ .form-inline {
+     text-align: center;
+ }
