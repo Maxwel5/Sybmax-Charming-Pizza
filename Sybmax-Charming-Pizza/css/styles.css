@@ -1,6 +1,6 @@
-body {
+/* body {
     background-color: rgb(165, 187, 180);
-}
+} */
 .header {
     background-color: blue;
 }
@@ -45,14 +45,21 @@ body {
     text-align: center;
     font-size: 18px;
 }
-@media (min-width: 576px) { 
+@media screen and (min-width: 576px) { 
     .header{
    display:block;
     }
  }
- form {
+ .main {
      text-align: center;
  }
- .form-inline {
+ .main1 {
      text-align: center;
+ }
+ .cover {
+     background-size: cover;
+ }
+ #p1 {
+     justify-content: center;
+     margin-left: 12px;
  }
