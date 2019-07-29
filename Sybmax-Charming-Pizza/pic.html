@@ -16,91 +16,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Sybmax Charming Pizza</title>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="Jumbotron">
+        <div class="jumbotron">
             <div class="header text-center">
                 <a href="max.html">HOME</a>
                 <a href="pic.html">VARRIETY</a>
                 <img src="file:///home/moringa/Downloads/max%202.gif" height="200">
-                <a href="#">ABOUT US</a>
+                <a href="sim.html">ABOUT US</a>
                 <a href="#">CONTACTS</a>
             </div>
-        </div><br>
-        
-        <p id="choice">We have various pizza depending on your choice of size, crust, topping and price as per what you wish to buy.</p><br>
-        <div>
-            <form class="form-inline" action="/action_page.php">
-                <div class="form-group">
-                    <label for="sizes">Pizza sizes:</label>
-                    <select>
-                        <option value="size">Small :Ksh.500</option>
-                        <option value="size">Medium :Ksh.750</option>
-                        <option value="size">Large :Ksh.1000</option>
-                    </select>
-                </div><br>
+            <br>
 
-                <div class="form-group">
-                    <label for="crust">Crust type:</label>
-                    <select>
-                        <option value="crust">Crispy Ksh.120</option>
-                        <option value="crust">Stuffed Ksh.110</option>
-                        <option value="crust">Glutten-free Ksh.100</option>
-                        <option value="crust">Custom Ksh.105</option>
-                        <option value="crust">Thick Ksh.140</option>
-                        <option value="crust">Thin Ksh.100</option>
-                        <option value="crust">Focaccia Ksh.125</option>
-                        <option value="crust">Authenti wood fired Ksh.100</option>
-                    </select>
-                </div><br>
-            </form>
-            <form action="/action_page.php">
-                <label for="topping">Toppings:</label>
-                <select>
-                    <input type="checkbox" name="top" value="sausage"> Sausage Ksh.80<br>
-                    <input type="checkbox" name="top" value="pepperoni"> Pepperoni Ksh.70<br>
-                    <input type="checkbox" name="top" value="bacon"> Bacon Ksh.100<br>
-                    <input type="checkbox" name="top" value="mushroom"> Mushroom Ksh.120<br>
-                    <input type="checkbox" name="top" value="x cheese"> Extra cheese Ksh.90<br>
-                    <input type="checkbox" name="top" value="onion"> Onions Ksh.50<br>
-                    <input type="checkbox" name="top" value="spinach"> Spinach Ksh.40<br>
-                    <input type="checkbox" name="top" value="g pepper"> Green peppers Ksh.70<br>
-                    <input type="checkbox" name="top" value="pineapple"> Pinapple Ksh.80<br>
-                    <input type="checkbox" name="top" value="b olives" checked> Black olives Ksh.90<br><br>
-                    <input type="submit" value="Submit">
-                </select>
-            </form>
-        </div><br><br>
-        <div>
-            <h2>Fill the form below after your selection</h2>
-            <form action="/action_page.php">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="name" class="form-control" id="name">
+            <p id="choice">We have various pizza depending on your choice of size, crust, topping and price as per what
+                you wish to buy.</p><br>
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img src="https://icon2.kisspng.com/20180125/hdw/kisspng-new-york-style-pizza-italian-cuisine-take-out-pizz-pizza-5a6a4b7e72ae96.7970135715169155824698.jpg"><br>pizza size
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyXJuemNkNWqtgIU44e8abRIy_tgD5mcqIFQ8Zlg1SmMGG7QZIWg"><br>
+                        Pizza piece
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL8kd_Nlk1zhchBaUcEdHsHOZUm1P6HeyuYejfmXbC7GOQMZ_B"><br>
+                        Preparing procedure
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="location">Location:</label>
-                    <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="main">
+                <form id="pizza" class="form " action="/action_page.php">
+                    <div class="form-group1">
+                        <label for="sizes">Pizza sizes:</label>
+                        <select id="siz">
+                            <option id="dom" value="500">Small :Ksh.500</option>
+                            <option id="zil" value="750">Medium :Ksh.750</option>
+                            <option id="ziz" value="1000">Large :Ksh.1000</option>
+                        </select>
+                    </div><br>
+
+                    <div class="form-group2">
+                        <form action="/action_page.php">
+                            <p>Pizza crust</p>
+                            <input type="checkbox" id="crust" value="120">Crispy :Ksh.120<br>
+                            <input type="checkbox" id="crust" value="110">Stuffed :Ksh.110<br>
+                            <input type="checkbox" id="crust" value="100">Glutten-free ;Ksh.100<br>
+                            <input type="checkbox" id="crust" value="105">Custom :Ksh.105<br>
+                            <input type="checkbox" id="crust"value="140">Thick :Ksh.140<br>
+                            <input type="checkbox" id="crust" value="100">Thin :Ksh.100<br>
+                            <input type="checkbox" id="crust" value="125">Focaccia :Ksh.125<br>
+                            <input type="checkbox" id="crust" value="100">Authentic wood fired :Ksh.100<br>
+                        </form>
+                    </div><br>
+                </form>
+                <br>
+                <div class="main1 text-center">
+                    <form action="">
+                        <p>Toppings:</p>
+                        <input type="checkbox" id="top" name="top" value="80"> Sausage :Ksh.80 <br>
+                        <input type="checkbox" id="top" name="top" value="80"> Pepperoni :Ksh.70<br>
+                        <input type="checkbox" id="top" name="top" value="110">Bacon :Ksh.110<br>
+                        <input type="checkbox" id="top" name="top" value="120"> Mushroom :Ksh.120<br>
+                        <input type="checkbox" id="top" name="top" value="90"> Extra cheese :Ksh.90<br>
+                        <input type="checkbox" id="top" name="top" value="50"> Onions :Ksh.50<br>
+                        <input type="checkbox" id="top" name="top" value="40"> Spinach :Ksh.40<br>
+                        <input type="checkbox" id="top" name="top" value="70"> Green peppers :Ksh.70<br>
+                        <input type="checkbox" id="top" name="top" value="80"> Pinapple :Ksh.80<br>
+                        <input type="checkbox" id="top" name="top" value="90" checked> :Black olives Ksh.90<br>
+                        <input type="text" id="myInput" placeholder="Quantity..."><br><br>
+                        <input type="submit" value="Add">
+                    </form>
                 </div>
-                <div class="form-group form-check">
-                <div class="form-group">
-                    <label for="email">Email address:</label>
-                    <input type="email" class="form-control" id="email">
+                <div id="checkout"></div>
+                <br><br>
+                <div>
+                    <h2>Fill the form below after your selection</h2>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="name" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Location:</label>
+                            <input type="l0cation" class="form-control" id="location">
+                        </div>
+                        <div class="form-group form-check">
+                            <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone no.:</label>
+                                <input type="phone no." class="form-control" id="phone">
+                            </div>
+                            <div class="form-group form-check">
+                                <!-- <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox"> Remember me
+                                </label> -->
+                            </div>
+                            <button type="submit" class="sbtn-primary">Submit</button>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="phone">Phone no.:</label>
-                    <input type="phone no." class="form-control" id="phone">
-                </div>
-                <div class="form-group form-check">
-                    <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox"> Remember me
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            </div>
         </div>
     </div>
 
