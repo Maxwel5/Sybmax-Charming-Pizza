@@ -10,11 +10,11 @@ Currently a student at Moringa school parsuing *Software Development*
 ## Installation
 
     /* open terminal(Ctrl+Alt+T)
-    /* link:   
+    /* link: https://github.com/Maxwel5/Sybmax-Charming-Pizza.git   
     /* pizza website
     /* code: It is constituted of the terminologies mentioned above which have potentially collaborated to give direction through forms to the client/customer on the user interface. It is also composed of bussiness logic to for effective perfomance.
 
-## Terminologie
+## Terminologies used:
 /* *HTML*
 /* *CSS*
 /* *JS*

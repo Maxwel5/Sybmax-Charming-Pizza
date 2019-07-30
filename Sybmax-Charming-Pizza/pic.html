@@ -4,7 +4,10 @@
 <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.4.1.min.map"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,65 +36,79 @@
 
             <p id="choice">We have various pizza depending on your choice of size, crust, topping and price as per what
                 you wish to buy.</p><br>
-            <!-- <div class="card"> -->
-                <div class="row">
-                    <div class="col-md-4 text-center">
-                        <img src="https://icon2.kisspng.com/20180125/hdw/kisspng-new-york-style-pizza-italian-cuisine-take-out-pizz-pizza-5a6a4b7e72ae96.7970135715169155824698.jpg"><br>pizza size
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyXJuemNkNWqtgIU44e8abRIy_tgD5mcqIFQ8Zlg1SmMGG7QZIWg"><br>
-                        Pizza piece
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL8kd_Nlk1zhchBaUcEdHsHOZUm1P6HeyuYejfmXbC7GOQMZ_B"><br>
-                        Preparing procedure
-                    </div>
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img
+                        src="https://icon2.kisspng.com/20180125/hdw/kisspng-new-york-style-pizza-italian-cuisine-take-out-pizz-pizza-5a6a4b7e72ae96.7970135715169155824698.jpg"><br>pizza
+                    size
                 </div>
-            <!-- </div> -->
+                <div class="col-md-4 text-center">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyXJuemNkNWqtgIU44e8abRIy_tgD5mcqIFQ8Zlg1SmMGG7QZIWg"><br>
+                    Pizza piece
+                </div>
+                <div class="col-md-4 text-center">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL8kd_Nlk1zhchBaUcEdHsHOZUm1P6HeyuYejfmXbC7GOQMZ_B"><br>
+                    Preparing procedure
+                </div>
+            </div>
+
             <div class="main">
-                <form id="pizza" class="form " action="/action_page.php">
+                <form id="pizza" class="form " action="">
                     <div class="form-group1">
-                        <label for="sizes">Pizza sizes:</label>
+                        <!-- <label for="sizes">Pizza sizes:</label> -->
                         <select id="siz">
                             <option id="dom" value="500">Small :Ksh.500</option>
                             <option id="zil" value="750">Medium :Ksh.750</option>
-                            <option id="ziz" value="1000">Large :Ksh.1000</option>
+                            <option id="ziz"  value="1000">Large :Ksh.1000</option>
                         </select>
                     </div><br>
 
-                    <div class="form-group2">
-                        <form action="/action_page.php">
+                    <!-- <div class="form-group2"> -->
+                        <!-- <form action=""> -->
                             <p>Pizza crust</p>
-                            <input type="checkbox" id="crust" value="120">Crispy :Ksh.120<br>
-                            <input type="checkbox" id="crust" value="110">Stuffed :Ksh.110<br>
-                            <input type="checkbox" id="crust" value="100">Glutten-free ;Ksh.100<br>
-                            <input type="checkbox" id="crust" value="105">Custom :Ksh.105<br>
-                            <input type="checkbox" id="crust"value="140">Thick :Ksh.140<br>
-                            <input type="checkbox" id="crust" value="100">Thin :Ksh.100<br>
-                            <input type="checkbox" id="crust" value="125">Focaccia :Ksh.125<br>
-                            <input type="checkbox" id="crust" value="100">Authentic wood fired :Ksh.100<br>
-                        </form>
-                    </div><br>
-                </form>
-                <br>
-                <div class="main1 text-center">
-                    <form action="">
+                            <input type="radio" id="crispy" value="120" name = "crust">Crispy :Ksh.120<br>
+                            <input type="radio" id="stuff" value="110" name = "crust">Stuffed :Ksh.110<br>
+                            <input type="radio" id="glut" value="100" name = "crust">Glutten-free ;Ksh.100<br>
+                            <input type="radio" id="custom" value="105" name = "crust">Custom :Ksh.105<br>
+                            <input type="radio" id="thick" value="140" name = "crust">Thick :Ksh.140<br>
+                            <input type="radio" id="thin" value="100" name = "crust">Thin :Ksh.100<br>
+                            <input type="radio" id="faca" value="125" name = "crust">Focaccia :Ksh.125<br>
+                            <input type="radio" id="fired" value="100" name = "crust">Authentic wood fired :Ksh.100<br>
+                        <!-- </form> -->
+                    <!-- </div><br> -->
+                     <!-- </form> -->
+                    <br>
+                    <div class="main1 text-center">
+                        <!-- <form action=""> -->
                         <p>Toppings:</p>
-                        <input type="checkbox" id="top" name="top" value="80"> Sausage :Ksh.80 <br>
-                        <input type="checkbox" id="top" name="top" value="80"> Pepperoni :Ksh.70<br>
-                        <input type="checkbox" id="top" name="top" value="110">Bacon :Ksh.110<br>
-                        <input type="checkbox" id="top" name="top" value="120"> Mushroom :Ksh.120<br>
-                        <input type="checkbox" id="top" name="top" value="90"> Extra cheese :Ksh.90<br>
-                        <input type="checkbox" id="top" name="top" value="50"> Onions :Ksh.50<br>
-                        <input type="checkbox" id="top" name="top" value="40"> Spinach :Ksh.40<br>
-                        <input type="checkbox" id="top" name="top" value="70"> Green peppers :Ksh.70<br>
-                        <input type="checkbox" id="top" name="top" value="80"> Pinapple :Ksh.80<br>
-                        <input type="checkbox" id="top" name="top" value="90" checked> :Black olives Ksh.90<br>
+                        <input type="checkbox" id="sausage" name="top" value="80"> Sausage :Ksh.80<br>
+                        <input type="checkbox" id="pepperoni" name="top" value="80"> Pepperoni :Ksh.70<br>
+                        <input type="checkbox" id="bacon" name="top" value="110">Bacon :Ksh.110<br>
+                        <input type="checkbox" id="mushroom" name="top" value="120"> Mushroom :Ksh.120<br>
+                        <input type="checkbox" id="cheese" name="top" value="90"> Extra cheese :Ksh.90<br>
+                        <input type="checkbox" id="onions" name="top" value="50"> Onions :Ksh.50<br>
+                        <input type="checkbox" id="spinach" name="top" value="40"> Spinach :Ksh.40<br>
+                        <input type="checkbox" id="g-peppers" name="top" value="70"> Green peppers :Ksh.70<br>
+                        <input type="checkbox" id="pineapple" name="top" value="80"> Pinapple :Ksh.80<br>
+                        <input type="checkbox" id="b-olives" name="top" value="90" checked> :Black olives Ksh.90<br>
                         <input type="text" id="myInput" placeholder="Quantity..."><br><br>
                         <input type="submit" value="Add">
-                    </form>
+                    </div>
+                </form>
+                
+                <div id="checkout"></div><br>
+                <div class="col-md-6">
+                    <div id="show-contact">
+                      <h2></h2>
+                      <p>Pizza size: <span class="pizza-size"></span></p>
+                      <p>Pizza crust: <span class="pizza-crust"></span></p>
+                      <p>Pizza topping: <span class="pizza-topping"></span></p>
+                
+                    </div>
                 </div>
-                <div id="checkout"></div>
                 <br><br>
                 <div>
                     <h2>Fill the form below after your selection</h2>
@@ -102,7 +119,7 @@
                         </div>
                         <div class="form-group">
                             <label for="location">Location:</label>
-                            <input type="l0cation" class="form-control" id="location">
+                            <input type="location" class="form-control" id="location">
                         </div>
                         <div class="form-group form-check">
                             <div class="form-group">
@@ -113,23 +130,21 @@
                                 <label for="phone">Phone no.:</label>
                                 <input type="phone no." class="form-control" id="phone">
                             </div>
-                            <div class="form-group form-check">
-                                <!-- <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox"> Remember me
-                                </label> -->
-                            </div>
-                            <button type="submit" class="sbtn-primary">Submit</button>
+                            <div class="form-group form-check"><br></div>
+                        </div>
+                            <button type="submit" class="sbtn-primary" id= "btn1">Submit</button>
                     </form>
                 </div>
             </div>
             <div class="card">
                 <div class="col-md-12 text-center">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3MYTSV0ZIf1eJcRD7uxX0ch6RThC8SH-wmwOizkYgHJAtQ9CQ" width="1200"><br>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3MYTSV0ZIf1eJcRD7uxX0ch6RThC8SH-wmwOizkYgHJAtQ9CQ"><br>
                     Order now the pizza of your choice at your own convinience.
                 </div>
             </div>
         </div>
     </div>
+    <div class= "output"> </div>
 
 </body>
 
