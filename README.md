@@ -5,7 +5,7 @@ Maxwel Wafula
 Currently a student at Moringa school parsuing *Software Development*
 
 ## Description
- The project name is Sybmax Charming Pizza, Charming means '*sweet*'. It's meant to satisfybthe customer expectations, it entails various feature to enable effective funtionality for to be able to order the pizza of their choice.
+ The project name is Sybmax Charming Pizza, Charming means '*sweet*'. It's meant to satisfy the customer expectations, it entails various feature to enable effective funtionality for to be able to order the pizza of their choice.
 
 ## Installation
 
