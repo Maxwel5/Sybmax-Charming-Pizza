@@ -10,7 +10,7 @@ Currently a student at Moringa school parsuing *Software Development*
 ## Installation
 
     * open terminal(Ctrl+Alt+T)
-    * link: https://github.com/Maxwel5/Sybmax-Charming-Pizza.git   
+    * link:  https://maxwel5.github.io/Sybmax-Charming-Pizza/   
     * pizza website
     * code: It is constituted of the terminologies mentioned above which have potentially collaborated to give direction through forms to the client/customer on the user interface. It is also composed of bussiness logic to for effective perfomance.
 
