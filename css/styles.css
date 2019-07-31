@@ -46,11 +46,14 @@
     .header{
    display:block;
     }
+    img{
+        display: inline;
+    }
  }
  .main {
      text-align: center;
  }
- .main1 {
+ .tops {
      text-align: center;
      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSXOuuVUp3lr8qKdtH9wfcT1TiRF29ydale4WCc25-acelTWDfGg);
      font-weight: bold;

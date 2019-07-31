@@ -28,7 +28,7 @@
             <div class="header text-center">
                 <a href="index.html">HOME</a>
                 <a href="pic.html">VARRIETY</a>
-                <img src="file:///home/moringa/Downloads/max%202.gif" height="200">
+                <img src="file:///home/moringa/Downloads/max%202.gif" height="100">
                 <a href="sim.html">ABOUT US</a>
                 <a href="ok.html">CONTACTS</a>
             </div>
@@ -59,43 +59,35 @@
                 <form id="pizza" class="form " action="">
                     <div class="form-group1">
                         <!-- <label for="sizes">Pizza sizes:</label> -->
+                        <h2>Pizza size</h2>
                         <select id="siz">
                             <option id="dom" value="500">Small :Ksh.500</option>
                             <option id="zil" value="750">Medium :Ksh.750</option>
                             <option id="ziz"  value="1000">Large :Ksh.1000</option>
                         </select>
                     </div><br>
-
-                    <!-- <div class="form-group2"> -->
-                        <!-- <form action=""> -->
-                            <p>Pizza crust</p>
-                            <input type="radio" id="crispy" value="120" name = "crust">Crispy :Ksh.120<br>
-                            <input type="radio" id="stuff" value="110" name = "crust">Stuffed :Ksh.110<br>
-                            <input type="radio" id="glut" value="100" name = "crust">Glutten-free ;Ksh.100<br>
-                            <input type="radio" id="custom" value="105" name = "crust">Custom :Ksh.105<br>
-                            <input type="radio" id="thick" value="140" name = "crust">Thick :Ksh.140<br>
-                            <input type="radio" id="thin" value="100" name = "crust">Thin :Ksh.100<br>
-                            <input type="radio" id="faca" value="125" name = "crust">Focaccia :Ksh.125<br>
-                            <input type="radio" id="fired" value="100" name = "crust">Authentic wood fired :Ksh.100<br>
-                        <!-- </form> -->
-                    <!-- </div><br> -->
-                     <!-- </form> -->
+                        <h2>Pizza crust</h2>
+                        <select id="crust">
+                            <option id="crispy" value="120" name = "crust">Crispy :Ksh.120<br>
+                            <option id="stuff" value="110" name = "crust">Stuffed :Ksh.110<br>
+                            <option id="glut" value="100" name = "crust">Glutten-free :Ksh.100<br>
+                        </select>
                     <br>
-                    <div class="main1 text-center">
-                        <!-- <form action=""> -->
+                    <div class="tops text-center">
                         <p>Toppings:</p>
-                        <input type="checkbox" id="sausage" name="top" value="80"> Sausage :Ksh.80<br>
-                        <input type="checkbox" id="pepperoni" name="top" value="80"> Pepperoni :Ksh.70<br>
-                        <input type="checkbox" id="bacon" name="top" value="110">Bacon :Ksh.110<br>
-                        <input type="checkbox" id="mushroom" name="top" value="120"> Mushroom :Ksh.120<br>
-                        <input type="checkbox" id="cheese" name="top" value="90"> Extra cheese :Ksh.90<br>
-                        <input type="checkbox" id="onions" name="top" value="50"> Onions :Ksh.50<br>
-                        <input type="checkbox" id="spinach" name="top" value="40"> Spinach :Ksh.40<br>
-                        <input type="checkbox" id="g-peppers" name="top" value="70"> Green peppers :Ksh.70<br>
-                        <input type="checkbox" id="pineapple" name="top" value="80"> Pinapple :Ksh.80<br>
-                        <input type="checkbox" id="b-olives" name="top" value="90" checked> :Black olives Ksh.90<br>
+                        <input type="checkbox" id="sausage" name="top" value="100"> Sausage :Ksh.100<br>
+                        <input type="checkbox" id="pepperoni" name="top" value="100"> Pepperoni :Ksh.100<br>
+                        <input type="checkbox" id="bacon" name="top" value="100">Bacon :Ksh.100<br>
+                        <input type="checkbox" id="mushroom" name="top" value="100"> Mushroom :Ksh.100<br>
+                        <input type="checkbox" id="cheese" name="top" value="100"> Extra cheese :Ksh.100<br>
+                        <input type="checkbox" id="onions" name="top" value="100"> Onions :Ksh.100<br>
+                        <input type="checkbox" id="spinach" name="top" value="100"> Spinach :Ksh.100<br>
+                        <input type="checkbox" id="g-peppers" name="top" value="100"> Green peppers :Ksh.100<br>
+                        <input type="checkbox" id="pineapple" name="top" value="100"> Pinapple :Ksh.100<br>
+                        <input type="checkbox" id="b-olives" name="top" value="100"> Black olives Ksh.100<br>
                         <input type="text" id="myInput" placeholder="Quantity..."><br><br>
-                        <input type="submit" value="Add">
+                        <button type="submit" id="add" >Add</button>
+                        <button type="submit" id="checkout" >Checkout</button>
                     </div>
                 </form>
                 
@@ -103,9 +95,10 @@
                 <div class="col-md-6">
                     <div id="show-contact">
                       <h2></h2>
-                      <p>Pizza size: <span class="pizza-size"></span></p>
-                      <p>Pizza crust: <span class="pizza-crust"></span></p>
-                      <p>Pizza topping: <span class="pizza-topping"></span></p>
+                      <p id="p-size">Pizza size price: <span class="pizza-size"></span></p>
+                      <p id="p-crust">Pizza crust price: <span class="pizza-crust" ></span></p>
+                      <p id="p-topping">Pizza topping price: <span class="pizza-topping"></span></p>
+                      <p id="t-price">Pizza total price: <span class="pizza-total"></span></p>
                 
                     </div>
                 </div>
@@ -144,7 +137,7 @@
             </div>
         </div>
     </div>
-    <div class= "output"> </div>
+    <div class= "output1"> </div>
 
 </body>
 
